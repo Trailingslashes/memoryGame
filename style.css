@@ -1,3 +1,45 @@
+body {
+  background-color: #dbf2fe;
+  font-family: "Bungee", cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#title {
+  transform: rotateX(45deg);
+  line-height: 0.75;
+  color: #610079;
+  font-size: 8rem;
+  perspective: 600px;
+}
+
+#best-score {
+  color: #ca56f0;
+  font-size: 4rem;
+  text-align: center;
+}
+
+button {
+  background-color: #3e95f9;
+  color: #fff;
+  width: 280px;
+  height: 60px;
+  border: 0;
+  box-shadow: none;
+}
+
+button:focus {
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 #game div {
   border: 1px solid black;
   width: 15%;
